@@ -12,3 +12,5 @@ void sortirovka(char *words[], int c) {
         }
     }
 }
+
+//sdkjfiodjsfjposjop
