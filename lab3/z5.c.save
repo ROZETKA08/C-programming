@@ -1,0 +1,22 @@
+ #include <stdio.h>
+
+int main() {
+	int vas;
+	int shir;
+	printf("Введите высоту фигуры: ");
+	scanf("%d", &vas);
+	printf("Введите ширину фигуры: ");
+        scanf("%d", &shir); 
+	for(int i = 0; i < vas; i++) {
+		for (int y = 0; y < shir; y++) {
+			if (i == 0 || i == vas - 1 || y == 0 || y == shir - 1) {
+				printf("*");
+			}
+			else {
+				printf("-");
+			}
+		}
+		printf("\n");
+	}
+	return 0;
+}
