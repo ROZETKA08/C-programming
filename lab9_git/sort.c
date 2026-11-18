@@ -6,8 +6,11 @@ void sortirovka(char *words[], int c) {
     for (i = 0; i < c - 1; i++) {
         for (j = 0; j < c - 1 - i; j++) {
             if (sravn(words[j], words[j + 1]) > 0) {
+                # добавили комментарий в этот же файл по заданию 9
                 smena(words, j);
             }
         }
     }
 }
+
+# добавили изменения 3ий раз
