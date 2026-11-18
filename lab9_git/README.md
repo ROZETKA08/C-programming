@@ -2,6 +2,7 @@
 
 ## Оценка 3 ##
 On Branch main - в ветке main
+
 <img width="612" height="142" alt="gitstatus" src="https://github.com/user-attachments/assets/db94cadf-26b9-44b9-8431-3fc17edcb678" />
 
 В логе пока ничего нет, потому что ничего не скомитчено
