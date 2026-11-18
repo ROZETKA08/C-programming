@@ -22,6 +22,7 @@ On Branch main - в ветке main
 <img width="405" height="16" alt="gitadd" src="https://github.com/user-attachments/assets/2c434f52-c19b-4b2a-957d-ecccc6c7358c" />
 
 Теперь в get Status видно, что был добавден новый файл - sort.c
+
 <img width="438" height="123" alt="gitstatus3" src="https://github.com/user-attachments/assets/e1feef5c-a25a-47a5-b75f-feb0013ae43a" />
 
 Закоммитили файл в репозиторий
