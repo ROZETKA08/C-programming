@@ -51,3 +51,63 @@ git log (Журнал) - показывает историю коммитов
 закоммитили последние изменения
 <img width="912" height="128" alt="commit4" src="https://github.com/user-attachments/assets/4bb85886-d33e-4b14-be3c-0c2ee57b183a" />
 <img width="2806" height="778" alt="commit4c" src="https://github.com/user-attachments/assets/57b18ce1-94c1-4220-8d5d-0a90b0915a37" />
+
+ВЕТКИ
+
+Создадим новую ветку mybranch
+
+<img width="301" height="32" alt="image" src="https://github.com/user-attachments/assets/adb670dc-d78d-4111-bab8-c21fec65be28" />
+
+проверим, что она создалась
+
+<img width="209" height="97" alt="Screenshot 2026-11-21 at 16 42 17" src="https://github.com/user-attachments/assets/d17534c2-f1a7-4107-a686-d5e2b3f6718a" />
+
+переключимся на новую ветку
+
+<img width="300" height="60" alt="image" src="https://github.com/user-attachments/assets/23a44107-5ced-45a7-afb5-d0a4a27a3c58" />
+<img width="116" height="48" alt="Screenshot 2026-11-21 at 16 50 37" src="https://github.com/user-attachments/assets/34c1143c-a5d8-4508-9d9c-b2eeaf882d7a" />
+
+после переключения на новую ветку git status показывает её
+
+<img width="269" height="31" alt="image" src="https://github.com/user-attachments/assets/1aad8035-c780-405d-ac7b-9ee978b22874" />
+
+создадим файл file1nikita.txt, добавим его и закоммитим
+
+<img width="404" height="79" alt="image" src="https://github.com/user-attachments/assets/0b5d9bcb-5e8f-4dbf-a466-8d12a8270094" />
+
+Используем git log --oneline --graph, чтобы увидеть, что наша ветка
+указывает на новый коммит
+
+<img width="323" height="33" alt="image" src="https://github.com/user-attachments/assets/11c27885-f39e-4e6d-bc0c-845606b38d5a" />
+
+Вернёмся к ветке с именем main.
+
+<img width="300" height="82" alt="image" src="https://github.com/user-attachments/assets/4a7cd727-5551-4f0d-bb7a-052280bb1a85" />
+
+Используем git log --oneline --graph - последний коммит стал показывать коммит главной ветки, а не ветки mybranch
+
+<img width="288" height="41" alt="image" src="https://github.com/user-attachments/assets/fa9f9592-4f35-49b7-ab66-80833261c2f8" />
+
+Создадим новый файл с именем file2nikita.txt и закоммитим его
+
+<img width="384" height="91" alt="image" src="https://github.com/user-attachments/assets/50258aff-4ae9-4862-afe0-6fb757fb012b" />
+
+Используем git log --oneline --graph --all, чтобы увидеть, что наша ветка
+указывает на новый коммит, и что теперь у двух веток разные коммиты
+
+<img width="280" height="88" alt="image" src="https://github.com/user-attachments/assets/460ad28d-5e96-49a6-9ce0-301eba9ca05e" />
+
+файлы в ветке main
+<img width="242" height="141" alt="image" src="https://github.com/user-attachments/assets/aa637f82-d546-4a68-ac45-6df849fec503" />
+
+переключаем на ветку mybranch
+<img width="315" height="43" alt="image" src="https://github.com/user-attachments/assets/93a07954-1b73-4c87-9082-a3d42f99dbce" />
+
+файлы в ветке mybranch (файл file2.txt пропал)
+<img width="241" height="155" alt="image" src="https://github.com/user-attachments/assets/eb415cd0-3946-41ca-92f0-69b9b544d45f" />
+
+Используем git diff mybranch master, чтобы увидеть разницу между
+двумя ветками (первый diff показывает, что file1nikita.txt удаляется при переключении с одной ветки в другую, а второй diff показывает, что file1.txt переименовывается в file2nikita.txt (переименовывается потому что внутри них ничего нет)
+
+<img width="426" height="128" alt="image" src="https://github.com/user-attachments/assets/58b4fdbe-8bd0-4679-bd07-a6c9d4dfab1a" />
+
