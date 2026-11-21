@@ -114,3 +114,7 @@ git log (Журнал) - показывает историю коммитов
 
 <img width="426" height="128" alt="image" src="https://github.com/user-attachments/assets/58b4fdbe-8bd0-4679-bd07-a6c9d4dfab1a" />
 
+Добавим текстовый документ со скриншотами в ветку mybranch
+Закоммитим и запушим на удаленный репо ветку mybranch (git push -u origin mybranch)
+
+<img width="399" height="69" alt="image" src="https://github.com/user-attachments/assets/c8d26572-1209-4f8a-99a8-36c0a2f517fd" />
