@@ -98,12 +98,15 @@ git log (Журнал) - показывает историю коммитов
 <img width="280" height="88" alt="image" src="https://github.com/user-attachments/assets/460ad28d-5e96-49a6-9ce0-301eba9ca05e" />
 
 файлы в ветке main
+
 <img width="242" height="141" alt="image" src="https://github.com/user-attachments/assets/aa637f82-d546-4a68-ac45-6df849fec503" />
 
 переключаем на ветку mybranch
+
 <img width="315" height="43" alt="image" src="https://github.com/user-attachments/assets/93a07954-1b73-4c87-9082-a3d42f99dbce" />
 
 файлы в ветке mybranch (файл file2.txt пропал)
+
 <img width="241" height="155" alt="image" src="https://github.com/user-attachments/assets/eb415cd0-3946-41ca-92f0-69b9b544d45f" />
 
 Используем git diff mybranch master, чтобы увидеть разницу между
