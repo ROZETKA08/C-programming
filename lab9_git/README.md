@@ -109,7 +109,7 @@ git log (Журнал) - показывает историю коммитов
 
 <img width="241" height="155" alt="image" src="https://github.com/user-attachments/assets/eb415cd0-3946-41ca-92f0-69b9b544d45f" />
 
-Используем git diff mybranch master, чтобы увидеть разницу между
+Используем git diff mybranch main, чтобы увидеть разницу между
 двумя ветками (первый diff показывает, что file1nikita.txt удаляется при переключении с одной ветки в другую, а второй diff показывает, что file1.txt переименовывается в file2nikita.txt (переименовывается потому что внутри них ничего нет)
 
 <img width="426" height="128" alt="image" src="https://github.com/user-attachments/assets/58b4fdbe-8bd0-4679-bd07-a6c9d4dfab1a" />
