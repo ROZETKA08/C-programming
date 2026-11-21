@@ -118,3 +118,8 @@ git log (Журнал) - показывает историю коммитов
 Закоммитим и запушим на удаленный репо ветку mybranch (git push -u origin mybranch)
 
 <img width="399" height="69" alt="image" src="https://github.com/user-attachments/assets/c8d26572-1209-4f8a-99a8-36c0a2f517fd" />
+<img width="464" height="336" alt="image" src="https://github.com/user-attachments/assets/2df2f47c-d3b5-46aa-81f9-a69e49d3e976" />
+
+также запушим изменения в ветке main
+
+<img width="353" height="105" alt="image" src="https://github.com/user-attachments/assets/35c149ac-b9b9-4523-8676-cfb6ee3b7fe4" />
