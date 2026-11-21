@@ -123,3 +123,16 @@ git log (Журнал) - показывает историю коммитов
 также запушим изменения в ветке main
 
 <img width="353" height="105" alt="image" src="https://github.com/user-attachments/assets/35c149ac-b9b9-4523-8676-cfb6ee3b7fe4" />
+
+Убедимся, что в github.com две ветки main и mybranch
+
+ветка main
+<img width="1591" height="327" alt="Screenshot 2026-11-21 at 17 40 03" src="https://github.com/user-attachments/assets/270370bf-d7ae-4a75-8e5a-13f96a854341" />
+
+ветка mybranch
+<img width="1595" height="525" alt="Screenshot 2026-11-21 at 17 40 34" src="https://github.com/user-attachments/assets/8a6220f9-8289-4930-bc78-e598646e3ac7" />
+
+
+<img width="400" height="54" alt="Screenshot 2026-11-21 at 17 40 42" src="https://github.com/user-attachments/assets/d50a497e-8f35-40c2-9f92-ec2ac20f2c21" />
+
+
