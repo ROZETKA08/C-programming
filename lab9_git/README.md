@@ -1,4 +1,4 @@
-<img width="555" height="608" alt="image" src="https://github.com/user-attachments/assets/489b0ecc-47fc-45b0-b49c-de79f3e2f7e2" /># Практическое задание 9. Git #
+# Практическое задание 9. Git #
 
 ## Оценка 3 ##
 On Branch main - в ветке main
