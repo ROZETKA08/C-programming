@@ -224,7 +224,10 @@ git restore sort.c
 
 <img width="520" height="169" alt="image" src="https://github.com/user-attachments/assets/61c3c12c-0671-4a85-8aa8-38319ee29962" />
 
+
+
 ВЕТКИ И FF-MERGE
+
 
 Создадим файл greeting.txt, проиндексируем его и закоммитим с
 сообщением “Add file greeting.txt”
@@ -295,6 +298,7 @@ git log --oneline --graph –all
 <img width="647" height="353" alt="image" src="https://github.com/user-attachments/assets/9a156cdf-b0e1-460d-97e3-b2c0ae01822a" />
 
 запушим изменения ветки main на удалённый репо
+
 <img width="413" height="100" alt="image" src="https://github.com/user-attachments/assets/6755b5bc-3b05-4ba9-a89a-d6ec8e0e40af" />
 <img width="413" height="100" alt="image" src="https://github.com/user-attachments/assets/2ab444ac-a46e-465d-87cd-39ed3ffd41a3" />
 
