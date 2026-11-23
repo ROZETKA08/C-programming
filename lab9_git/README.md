@@ -169,4 +169,7 @@ git diff --staged теперь показывает удалённые и доб
 
 Удаляем любое из чисел в массиве в sort.c
 
+<img width="680" height="396" alt="udal" src="https://github.com/user-attachments/assets/140c038d-271a-43cf-8908-d661debdecb2" />
+
+
 
