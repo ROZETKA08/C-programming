@@ -21,7 +21,7 @@ On Branch main - в ветке main
 Добавили файл в область Stage (область между рабочей папкой и историей коммитов)
 <img width="405" height="16" alt="gitadd" src="https://github.com/user-attachments/assets/2c434f52-c19b-4b2a-957d-ecccc6c7358c" />
 
-Теперь в get Status видно, что был добавден новый файл - sort.c
+Теперь в git Status видно, что был добавден новый файл - sort.c
 
 <img width="438" height="123" alt="gitstatus3" src="https://github.com/user-attachments/assets/e1feef5c-a25a-47a5-b75f-feb0013ae43a" />
 
@@ -188,7 +188,7 @@ git status показывает sort.c два раза
 
  <img width="537" height="276" alt="image" src="https://github.com/user-attachments/assets/0f27a4a2-1f02-42db-af05-3930357c2aa1" />
 
-индоссируем изменения и коммитим их
+индексируем изменения и коммитим их
 
 <img width="637" height="151" alt="image" src="https://github.com/user-attachments/assets/6d9586b4-da55-4d02-8f7e-477f3f046dc0" />
 
