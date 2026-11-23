@@ -135,4 +135,38 @@ git log (Журнал) - показывает историю коммитов
 
 <img width="400" height="54" alt="Screenshot 2026-11-21 at 17 40 42" src="https://github.com/user-attachments/assets/d50a497e-8f35-40c2-9f92-ec2ac20f2c21" />
 
+## Оценка 4 ##
+
+переключаемся на ветку mybranch
+
+<img width="465" height="92" alt="image" src="https://github.com/user-attachments/assets/521d5f70-7360-4eff-af28-6816aae22f25" />
+
+Перезапишем содержимое в sort.c добавив функцию main(), в которой
+будет объявлен массив из нескольких чисел и
+вызвана функция сортировки для этого массива
+
+<img width="576" height="658" alt="image" src="https://github.com/user-attachments/assets/7b56a364-524b-43aa-b2a2-bb796120e305" />
+
+вводим git diff и смотрим, что он выдаёт(+ = добавленные строчки, - = убранные строчки)
+
+<img width="641" height="678" alt="image" src="https://github.com/user-attachments/assets/4e489ac2-f184-4df5-84ca-f268033e92d8" />
+
+git diff --staged - пустой потому что в индексе нет изменений, готовых к коммиту
+
+<img width="458" height="113" alt="image" src="https://github.com/user-attachments/assets/d84fcf1e-ccbe-4471-ad46-b248604dea49" />
+
+Добавим в staged файл sort.c
+
+<img width="352" height="63" alt="image" src="https://github.com/user-attachments/assets/aff992a4-5689-4821-96bf-ebba4c6b94a3" />
+
+теперь git diff пустой
+
+<img width="383" height="207" alt="image" src="https://github.com/user-attachments/assets/1350bdb9-37e8-48d0-9647-f4392a87342b" />
+
+git diff --staged теперь показывает удалённые и добавленные строки
+
+<img width="521" height="569" alt="image" src="https://github.com/user-attachments/assets/488864a5-b7c8-4ac1-84e4-7f8d7e7921c9" />
+
+Удаляем любое из чисел в массиве в sort.c
+
 
