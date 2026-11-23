@@ -171,5 +171,56 @@ git diff --staged теперь показывает удалённые и доб
 
 <img width="680" height="396" alt="udal" src="https://github.com/user-attachments/assets/140c038d-271a-43cf-8908-d661debdecb2" />
 
+git diff показывает, что число из массива убрано
 
+<img width="396" height="222" alt="image" src="https://github.com/user-attachments/assets/1c314e6f-0a32-471a-a9dc-a1004c3b1e54" />
+
+git diff -- staged не поменялся потому что изменение не было добавлено через git add
+
+<img width="533" height="571" alt="image" src="https://github.com/user-attachments/assets/2f1a3f02-8e52-4071-b00a-6161de0789e3" />
+
+git status показывает sort.c два раза
+
+<img width="532" height="304" alt="image" src="https://github.com/user-attachments/assets/17f4e09e-3109-4378-a044-564be62cb0e6" />
+
+Запустим git restore --staged sort.c, чтобы отменить индексацию
+изменения, теперь git status показывает только один sort
+
+ <img width="537" height="276" alt="image" src="https://github.com/user-attachments/assets/0f27a4a2-1f02-42db-af05-3930357c2aa1" />
+
+индоссируем изменения и коммитим их
+
+<img width="637" height="151" alt="image" src="https://github.com/user-attachments/assets/6d9586b4-da55-4d02-8f7e-477f3f046dc0" />
+
+в журнал (git log) добавился новый коммит
+
+<img width="513" height="90" alt="image" src="https://github.com/user-attachments/assets/d76bc9b8-5ea9-437b-99db-7b09b26b1252" />
+
+Добавим в sort.c в main() printf(“hello git\n”);
+
+<img width="662" height="406" alt="Screen Recording 2026-11-23 at 18 55 53 2" src="https://github.com/user-attachments/assets/5794701e-1083-490f-9b8d-42975ba6e07b" />
+
+теперь содержание sort.c выглядит так
+
+<img width="434" height="420" alt="image" src="https://github.com/user-attachments/assets/3fc23dbc-e731-4a7f-8d50-6730cbddcd89" />
+
+git status
+
+<img width="541" height="188" alt="image" src="https://github.com/user-attachments/assets/a8256cd9-6635-409c-bbdc-c24b8fdaa295" />
+
+git restore sort.c
+
+<img width="378" height="42" alt="image" src="https://github.com/user-attachments/assets/5342f73a-d442-499d-b782-dfa29cb0e93a" />
+
+содержание sort.c поменялось (пропала строка printf(“hello git\n”);)
+
+<img width="386" height="400" alt="image" src="https://github.com/user-attachments/assets/aeb109d2-a305-412c-a78b-4345f9c68d9a" />
+
+изменение (добавленная строка) пропало
+
+<img width="416" height="96" alt="image" src="https://github.com/user-attachments/assets/2bf924ae-3671-41ed-b40a-f057ba761953" />
+
+запушим изменения на удалённый репо
+
+<img width="520" height="169" alt="image" src="https://github.com/user-attachments/assets/61c3c12c-0671-4a85-8aa8-38319ee29962" />
 
