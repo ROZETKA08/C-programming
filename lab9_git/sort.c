@@ -1,16 +1,26 @@
+#include <stdio.h>
 // функция сортировки из 7-ой лабораторной работы
 
-void sortirovka(char *words[], int c) {
+void sortirovka(int a[], int c) {
     int i;
     int j;
     for (i = 0; i < c - 1; i++) {
         for (j = 0; j < c - 1 - i; j++) {
-            if (sravn(words[j], words[j + 1]) > 0) {
-                // добавили комментарий в этот же файл по заданию 9
-                smena(words, j);
+            if (a[j] > a[j + 1]) {
+                int temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
             }
         }
     }
 }
 
-//sdkjfiodjsfjposjop
+int main() {
+    int a[] = {4, 2};
+    int c = 3;
+    sortirovka(a, c);
+    for (int i = 0; i < c; i++) {
+        printf("%d ", a[i]);
+    }
+    return 0;
+}
