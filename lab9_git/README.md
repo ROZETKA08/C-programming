@@ -305,3 +305,112 @@ git log --oneline --graph –all
 <img width="413" height="100" alt="image" src="https://github.com/user-attachments/assets/6755b5bc-3b05-4ba9-a89a-d6ec8e0e40af" />
 <img width="543" height="163" alt="image" src="https://github.com/user-attachments/assets/73a342d4-a3f2-4776-a9d2-66d32336b6de" />
 
+## Оценка 5 ##
+
+создадим ветку branch 1 м переключимся на неё
+
+<img width="329" height="73" alt="image" src="https://github.com/user-attachments/assets/5a86283f-5bb8-47da-bd77-7d2e94b2cb67" />
+
+Выполним команду
+$ echo "This is a relevant fact" > file.txt
+
+<img width="519" height="43" alt="image" src="https://github.com/user-attachments/assets/82f08a2b-b6f0-4fb8-9786-4e66e4c774cd" />
+
+Закоммитим это изменение
+
+<img width="425" height="99" alt="image" src="https://github.com/user-attachments/assets/b0a82f4a-d3cc-46b0-8451-b34a79ac5aff" />
+
+Переключимся на главную ветку и выполним команду
+echo "This is an indispensable truth!" > file.txt
+
+<img width="549" height="123" alt="image" src="https://github.com/user-attachments/assets/e93d3f7b-321e-4cb3-bcf1-673cb5f7fafe" />
+
+Переключимся на главную ветку и выполним команду
+echo "This is an indispensable truth!" > file.txt и закоммитим изменения в main
+
+<img width="540" height="118" alt="image" src="https://github.com/user-attachments/assets/9ddffc10-5588-4216-8984-fe626ff88fd1" />
+
+git log --oneline --graph –all
+
+<img width="675" height="566" alt="image" src="https://github.com/user-attachments/assets/748613bb-b380-4c25-bf03-6fffe0158c58" />
+
+Использоуем команду git merge чтобы смержить ветку branch1 в main
+(получим конфликт это норм)
+
+<img width="512" height="95" alt="image" src="https://github.com/user-attachments/assets/a95aa609-743c-4ed2-80db-a70d95bea53a" />
+
+git status показывает конфликт слияния
+
+<img width="508" height="227" alt="image" src="https://github.com/user-attachments/assets/43dc2e2c-5f07-48ef-b670-2b20f597107a" />
+
+Посмотрим содержимое файла file.txt и в VScode и исправим конфликт
+
+<img width="649" height="204" alt="image" src="https://github.com/user-attachments/assets/16a3bf40-8bfa-4320-b15c-b23fffe8f045" />
+<img width="396" height="53" alt="image" src="https://github.com/user-attachments/assets/0a9957cf-5c76-4256-bf8b-90a42cfa362c" />
+
+git log --oneline –graph
+
+<img width="634" height="419" alt="image" src="https://github.com/user-attachments/assets/b0063d41-9b4e-46af-b691-194830a99825" />
+
+Запушим изменения
+
+<img width="539" height="168" alt="image" src="https://github.com/user-attachments/assets/5154d939-0635-490c-8310-4ad5e013904f" />
+
+
+MERGE КОНФЛИКТЫ ДЛЯ СОРТИРОВКИ MERGESORT НА PYTHON
+
+Находясь в ветке main создадим файл mergesort.py с содержимым из
+base.py
+
+<img width="327" height="20" alt="image" src="https://github.com/user-attachments/assets/6c0450d9-c81d-42bc-892e-ff418a102b86" />
+<img width="535" height="130" alt="image" src="https://github.com/user-attachments/assets/5337429a-5a75-4ff0-974d-9d3b4f5e28cf" />
+
+Проиндексируем файл и закоммитим
+
+<img width="420" height="112" alt="image" src="https://github.com/user-attachments/assets/891963f9-c11c-4c0b-9222-3236f2ac9b45" />
+
+Создадим новую ветку Mergesort-Impl и переключимся на нее
+
+<img width="385" height="24" alt="image" src="https://github.com/user-attachments/assets/30376d95-01ec-4d10-9123-ddd2d5eebcdf" />
+<img width="369" height="51" alt="image" src="https://github.com/user-attachments/assets/d4786e1e-e77e-4a25-841b-e653708383c6" />
+
+Содержимое файла mergesort.py заменим на код из righty.py
+
+<img width="628" height="792" alt="image" src="https://github.com/user-attachments/assets/72b862c1-37b9-4b88-a929-e61fd9f48117" />
+
+Коммитим изменения
+
+<img width="446" height="90" alt="image" src="https://github.com/user-attachments/assets/51dc19d2-22bf-468a-a7a4-2fd503a3181e" />
+
+Переключаемся на main и меняем все содержимое mergesort.py на
+lefty.py
+
+<img width="381" height="94" alt="image" src="https://github.com/user-attachments/assets/9aef1f28-fc70-4743-a043-3efcfe628611" />
+
+<img width="629" height="743" alt="image" src="https://github.com/user-attachments/assets/8d1722e3-a2e7-45ce-b53d-19309c40ce84" />
+
+Коммитим изменения
+
+<img width="393" height="87" alt="image" src="https://github.com/user-attachments/assets/1ebd0693-26d9-4186-8f20-ea4fbf1add25" />
+
+git log --oneline –graph
+
+<img width="679" height="631" alt="image" src="https://github.com/user-attachments/assets/7d74fb9b-bb5c-4e6d-9180-d571cdb3d61e" />
+
+git branch
+
+<img width="158" height="118" alt="image" src="https://github.com/user-attachments/assets/3e0e29b7-3d6b-414b-8f51-a9cf4ab11585" />
+
+смержим Mergesort-Impl в main
+
+<img width="489" height="85" alt="image" src="https://github.com/user-attachments/assets/3bff54b3-ea3c-4233-982c-96c05c2fb552" />
+
+исправим все merge конфликты
+
+<img width="646" height="605" alt="image" src="https://github.com/user-attachments/assets/08fee3a9-14c1-4539-a29a-3bb22615f845" />
+
+<img width="580" height="735" alt="image" src="https://github.com/user-attachments/assets/c55e0a2f-8d74-468d-a1ce-9ec6bf61f420" />
+
+запушим в main изменения
+
+<img width="544" height="306" alt="image" src="https://github.com/user-attachments/assets/02291115-d92f-457e-83cc-6afe68e70fbc" />
