@@ -307,7 +307,7 @@ git log --oneline --graph –all
 
 ## Оценка 5 ##
 
-создадим ветку branch 1 м переключимся на неё
+создадим ветку branch 1 и переключимся на неё
 
 <img width="329" height="73" alt="image" src="https://github.com/user-attachments/assets/5a86283f-5bb8-47da-bd77-7d2e94b2cb67" />
 
@@ -319,11 +319,6 @@ $ echo "This is a relevant fact" > file.txt
 Закоммитим это изменение
 
 <img width="425" height="99" alt="image" src="https://github.com/user-attachments/assets/b0a82f4a-d3cc-46b0-8451-b34a79ac5aff" />
-
-Переключимся на главную ветку и выполним команду
-echo "This is an indispensable truth!" > file.txt
-
-<img width="549" height="123" alt="image" src="https://github.com/user-attachments/assets/e93d3f7b-321e-4cb3-bcf1-673cb5f7fafe" />
 
 Переключимся на главную ветку и выполним команду
 echo "This is an indispensable truth!" > file.txt и закоммитим изменения в main
@@ -357,6 +352,7 @@ git log --oneline –graph
 <img width="539" height="168" alt="image" src="https://github.com/user-attachments/assets/5154d939-0635-490c-8310-4ad5e013904f" />
 
 
+
 MERGE КОНФЛИКТЫ ДЛЯ СОРТИРОВКИ MERGESORT НА PYTHON
 
 Находясь в ветке main создадим файл mergesort.py с содержимым из
@@ -372,6 +368,7 @@ base.py
 Создадим новую ветку Mergesort-Impl и переключимся на нее
 
 <img width="385" height="24" alt="image" src="https://github.com/user-attachments/assets/30376d95-01ec-4d10-9123-ddd2d5eebcdf" />
+
 <img width="369" height="51" alt="image" src="https://github.com/user-attachments/assets/d4786e1e-e77e-4a25-841b-e653708383c6" />
 
 Содержимое файла mergesort.py заменим на код из righty.py
