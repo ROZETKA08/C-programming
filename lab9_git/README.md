@@ -21,7 +21,7 @@ On Branch main - в ветке main
 Добавили файл в область Stage (область между рабочей папкой и историей коммитов)
 <img width="405" height="16" alt="gitadd" src="https://github.com/user-attachments/assets/2c434f52-c19b-4b2a-957d-ecccc6c7358c" />
 
-Теперь в get Status видно, что был добавден новый файл - sort.c
+Теперь в git Status видно, что был добавден новый файл - sort.c
 
 <img width="438" height="123" alt="gitstatus3" src="https://github.com/user-attachments/assets/e1feef5c-a25a-47a5-b75f-feb0013ae43a" />
 
@@ -188,7 +188,7 @@ git status показывает sort.c два раза
 
  <img width="537" height="276" alt="image" src="https://github.com/user-attachments/assets/0f27a4a2-1f02-42db-af05-3930357c2aa1" />
 
-индоссируем изменения и коммитим их
+индексируем изменения и коммитим их
 
 <img width="637" height="151" alt="image" src="https://github.com/user-attachments/assets/6d9586b4-da55-4d02-8f7e-477f3f046dc0" />
 
@@ -223,4 +223,85 @@ git restore sort.c
 запушим изменения на удалённый репо
 
 <img width="520" height="169" alt="image" src="https://github.com/user-attachments/assets/61c3c12c-0671-4a85-8aa8-38319ee29962" />
+
+
+
+
+ВЕТКИ И FF-MERGE
+
+
+
+
+Создадим файл greeting.txt, проиндексируем его и закоммитим с
+сообщением “Add file greeting.txt”
+
+<img width="513" height="110" alt="image" src="https://github.com/user-attachments/assets/562de64b-1678-4934-9f1c-8e92e891f884" />
+
+Добавим в этот файл слово hello, индексируем и коммитим с текстом
+"Add content to greeting.txt"
+
+<img width="558" height="482" alt="Screen Recording 2026-11-23 at 19 42 17" src="https://github.com/user-attachments/assets/0f82db84-cd25-4a25-a16b-7c2555b69fb3" />
+
+Создадим ветку с именем feature/uppercase и переключимся на неё
+
+<img width="440" height="75" alt="image" src="https://github.com/user-attachments/assets/e5705f8e-9112-4e46-bce0-b911a9809d63" />
+
+git status
+
+<img width="354" height="77" alt="image" src="https://github.com/user-attachments/assets/e4692ba2-3024-40f6-91d7-e27349c5fc26" />
+
+Отредактируем greeting.txt, чтобы он содержал приветствие в верхнем
+регистре (HELLO)
+
+<img width="281" height="91" alt="image" src="https://github.com/user-attachments/assets/0428055e-5a7c-4c97-8284-e897dbd14953" />
+
+Добавим файл greeting.txt и закоммитим
+
+<img width="491" height="86" alt="image" src="https://github.com/user-attachments/assets/6ab60555-7787-4203-88a3-d23dc6d32e80" />
+
+git branch
+
+<img width="174" height="90" alt="image" src="https://github.com/user-attachments/assets/5721cd34-cb01-4161-9a7c-fd1e57a3e1c6" />
+
+git log --oneline --graph –all
+
+<img width="664" height="339" alt="image" src="https://github.com/user-attachments/assets/d026afe7-ea12-4580-9eab-6b84ebc87c19" />
+
+Переключимся на главную ветку
+
+<img width="545" height="99" alt="image" src="https://github.com/user-attachments/assets/d542606c-538b-4cdf-8817-19d5bb0fa66f" />
+
+посмотрим содержимое файла greetings.txt через cat (ничего не выведет потому что файл находится в feature/uppercase, а мы в main)
+
+<img width="361" height="59" alt="image" src="https://github.com/user-attachments/assets/1606d41e-7757-4d52-9e0f-9690e74eaa19" />
+
+Сравним ветки feature/uppercase и main
+
+<img width="555" height="608" alt="image" src="https://github.com/user-attachments/assets/201bc957-e986-4b20-bf8d-dee235fc1254" />
+
+Объединим ветки
+
+<img width="803" height="536" alt="image" src="https://github.com/user-attachments/assets/4052f947-450c-4654-84be-d3ae700ba29c" />
+<img width="738" height="334" alt="image" src="https://github.com/user-attachments/assets/628e6c4a-8d4c-4cbd-b28f-eb7f551585a8" />
+
+посмотрим содержимое файла greetings.txt через cat (теперь команда работает, потому что файл появился в main)
+
+<img width="313" height="48" alt="image" src="https://github.com/user-attachments/assets/62080a19-c4c2-43a4-90b0-9163de9adc8e" />
+
+Удалим ветку feature/uppercase
+
+<img width="418" height="36" alt="image" src="https://github.com/user-attachments/assets/3d17f2ef-8ce7-4d99-946a-e0294bd858e6" />
+
+Смержим ветку mybranch в main
+
+<img width="334" height="34" alt="image" src="https://github.com/user-attachments/assets/a8ded554-cc42-4a9c-9fe3-d476cd19842d" />
+
+git log --oneline --graph –all
+
+<img width="647" height="353" alt="image" src="https://github.com/user-attachments/assets/9a156cdf-b0e1-460d-97e3-b2c0ae01822a" />
+
+запушим изменения ветки main на удалённый репо
+
+<img width="413" height="100" alt="image" src="https://github.com/user-attachments/assets/6755b5bc-3b05-4ba9-a89a-d6ec8e0e40af" />
+<img width="543" height="163" alt="image" src="https://github.com/user-attachments/assets/73a342d4-a3f2-4776-a9d2-66d32336b6de" />
 
